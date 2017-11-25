@@ -16,6 +16,10 @@ public class AnimalFarm {
 			playNoise(meowFile);
 		} else if (answer.equals("wolf")) {
 			playNoise(woofFile);
+		} else if (answer.equals("duck")) {
+			playNoise(quackFile);
+		} else if (answer.equals("cow")) {
+			playNoise(mooFile);
 		}
 		/* 2. Make it so that the user can keep entering new animals. */
 	}
@@ -30,6 +34,10 @@ public class AnimalFarm {
 
 	void playWoof() {
 		playNoise(woofFile);
+	}
+
+	void meow() {
+		playNoise(meowFile);
 	}
 
 	String quackFile = "quack.wav";
