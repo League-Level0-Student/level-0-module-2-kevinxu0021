@@ -21,7 +21,6 @@ public class StringMethods2 {
 		// 6. BONUS -- print the LAST 3 char's of your string using
 		// .length() to determine WHERE the last 3 char's are located.
 
-		System.out.println(C.length() - 3, C.length());
-
+		System.out.println(C.length() - 3);
 	}
 }
